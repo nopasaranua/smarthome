@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>smart Home</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 46 46" id="home">
+            <g>
+                <path d="M36.6562 36.5255V22.2812H25.875V36.5255H36.6562ZM28.75 25.1562H33.7812V33.6505H28.75V25.1562Z" />
+                <path d="M24.3547 3.03323C23.7746 2.49955 23.0107 2.21075 22.2226 2.22723C21.4345 2.24371 20.6833 2.56418 20.1261 3.12164L2.875 20.3727V44.5636H12.9375V30.1886H18.6875V44.5636H43.125V20.302L24.3547 3.03323ZM40.25 41.6886H21.5625V27.3136H10.0625V41.6886H5.75V21.5636L22.4081 5.15417V5.14914L40.25 21.5636V41.6886Z" />
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 32 30" id="vk">
+            <g>
+                <path d="M20.91 0H11.087C2.12305 0 -0.00195312 1.99219 -0.00195312 10.3959V19.605C-0.00195312 28.0088 2.12305 30.0009 11.087 30.0009H20.91C29.874 30.0009 31.999 28.0088 31.999 19.605V10.3959C31.999 1.99219 29.853 0 20.91 0ZM25.832 21.4012H23.509C22.629 21.4012 22.358 20.7469 20.775 19.2431C19.4 17.9934 18.791 17.8275 18.452 17.8275C17.973 17.8275 17.837 17.9541 17.837 18.57V20.5378C17.837 21.0656 17.66 21.3825 16.17 21.3825C13.706 21.3825 10.972 19.9856 9.05505 17.3831C6.16405 13.5694 5.37305 10.7128 5.37305 10.1222C5.37305 9.80437 5.50805 9.50719 6.15905 9.50719H8.48705C9.07605 9.50719 9.30005 9.76125 9.52905 10.3519C10.68 13.4672 12.597 16.1962 13.388 16.1962C13.68 16.1962 13.815 16.0697 13.815 15.3713V12.1537C13.726 10.6697 12.893 10.5422 12.893 10.0153C12.893 9.76125 13.117 9.50719 13.476 9.50719H17.137C17.632 9.50719 17.814 9.76125 17.814 10.3078V14.6484C17.814 15.1172 18.038 15.2831 18.173 15.2831C18.465 15.2831 18.715 15.1172 19.256 14.6091C20.928 12.8512 22.126 10.1409 22.126 10.1409C22.282 9.82313 22.553 9.52594 23.142 9.52594H25.47C26.168 9.52594 26.324 9.8625 26.168 10.3313C25.876 11.6006 23.027 15.3703 23.027 15.3703C22.782 15.7509 22.688 15.9169 23.027 16.3416C23.277 16.6594 24.09 17.3184 24.631 17.9091C25.626 18.9684 26.391 19.8572 26.595 20.4722C26.824 21.0825 26.486 21.4003 25.829 21.4003L25.832 21.4012Z" />
+            </g>
+        </symbol>
+    
+        <symbol viewBox="0 0 30 30" id="instagram">
+            <g>
+                <path d="M14.996 9.99787C12.2417 9.99787 9.99393 12.2456 9.99393 15C9.99393 17.7544 12.2417 20.0021 14.996 20.0021C17.7503 20.0021 19.998 17.7544 19.998 15C19.998 12.2456 17.7503 9.99787 14.996 9.99787ZM29.9983 15C29.9983 12.9286 30.0171 10.876 29.9008 8.80832C29.7844 6.40669 29.2366 4.27525 27.4804 2.51907C25.7205 0.759128 23.5929 0.215011 21.1913 0.098682C19.1199 -0.0176466 17.0673 0.00111617 14.9997 0.00111617C12.9284 0.00111617 10.8758 -0.0176466 8.80815 0.098682C6.40658 0.215011 4.27517 0.762881 2.51902 2.51907C0.759114 4.27901 0.215007 6.40669 0.0986802 8.80832C-0.0176462 10.8797 0.00111615 12.9324 0.00111615 15C0.00111615 17.0676 -0.0176462 19.124 0.0986802 21.1917C0.215007 23.5933 0.762867 25.7247 2.51902 27.4809C4.27893 29.2409 6.40658 29.785 8.80815 29.9013C10.8795 30.0176 12.9321 29.9989 14.9997 29.9989C17.0711 29.9989 19.1237 30.0176 21.1913 29.9013C23.5929 29.785 25.7243 29.2371 27.4804 27.4809C29.2403 25.721 29.7844 23.5933 29.9008 21.1917C30.0208 19.124 29.9983 17.0714 29.9983 15ZM14.996 22.6964C10.7369 22.6964 7.29966 19.2591 7.29966 15C7.29966 10.7409 10.7369 7.30355 14.996 7.30355C19.255 7.30355 22.6923 10.7409 22.6923 15C22.6923 19.2591 19.255 22.6964 14.996 22.6964ZM23.0075 8.7858C22.0131 8.7858 21.2101 7.98276 21.2101 6.98834C21.2101 5.99392 22.0131 5.19087 23.0075 5.19087C24.0019 5.19087 24.8049 5.99392 24.8049 6.98834C24.8052 7.22447 24.7589 7.45834 24.6687 7.67655C24.5785 7.89476 24.4461 8.09303 24.2791 8.26C24.1122 8.42697 23.9139 8.55936 23.6957 8.64958C23.4775 8.73981 23.2436 8.7861 23.0075 8.7858Z" />
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 30 30" id="odk">
+            <g>
+                <path d="M14.51 15.5117C10.1529 15.5117 6.53158 11.9926 6.53158 7.8286C6.53158 3.52054 10.1529 0 14.5115 0C19.0181 0 22.4899 3.51904 22.4899 7.8286C22.4821 9.8732 21.64 11.8312 20.1485 13.2721C18.6571 14.7131 16.6384 15.5192 14.5362 15.5132L14.51 15.5117ZM14.51 4.52556C12.6654 4.52556 11.2618 6.03307 11.2618 7.8301C11.2618 9.62412 12.6654 10.9891 14.5115 10.9891C16.4317 10.9891 17.7611 9.62412 17.7611 7.8301C17.7627 6.03157 16.4317 4.52556 14.51 4.52556ZM17.6871 21.9048L22.1953 26.1423C23.0821 27.0738 23.0821 28.4389 22.1953 29.3014C21.236 30.2329 19.7569 30.2329 19.0181 29.3014L14.5115 24.9918L10.1529 29.3014C9.71028 29.7319 9.11803 29.9464 8.45176 29.9464C7.93508 29.9464 7.34438 29.7304 6.82616 29.3014C5.93933 28.4389 5.93933 27.0738 6.82616 26.1408L11.4068 21.9033C9.75259 21.4268 8.16571 20.7522 6.68272 19.8947C5.5738 19.3202 5.35325 17.8847 5.94396 16.8062C6.68273 15.7292 8.0122 15.4427 9.19515 16.1612C10.797 17.1119 12.6373 17.6149 14.5138 17.6149C16.3904 17.6149 18.2306 17.1119 19.8325 16.1612C21.0154 15.4427 22.4174 15.7292 23.0821 16.8062C23.7484 17.8847 23.4507 19.3187 22.4158 19.8947C21.0139 20.7573 19.3883 21.4038 17.6887 21.9063L17.6871 21.9048Z" />
+            </g>
+        </symbol>
+    
+    </svg>
+    <header>
+        <div class="container">
+            <div class="header__inner">
+                <button class="burger" id="navToggle"><span>menu</span></button>
+                <a class="logo" href="#">
+                    <img src="assets/images/logo.png" alt="Логотип">
+                </a>
+                <nav class="nav" id="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Возможности</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Устройства</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Сотрудничество</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Застройщикам</a>
+                        </li>
+                        <li class="nav__item">
+                            <div class="telefon">
+                                <a class="telefon__number" href="tel:+79563253654">+79563253654</a>
+                                <a class="telefon__text" href="#">Обратный звонок</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="telefon">
+                    <a class="telefon__number" href="tel:+79563253654">+79563253654</a>
+                    <a class="telefon__text" href="#">Обратный звонок</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Intro -->
+    <div class="intro">
+        <div class="container container--intro">
+            <div class="intro__inner">
+                <div class="intro__content">
+                        <div class="intro__text">
+                            <h1>Умный дом по цене смартфона</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt ullamcorper sed aliquet urna massa etiam turpis. Mus in dictum suspendisse sodales gravida porttitor.</p>
+                        </div>
+                        <a class="btn btn--intro" href="#">Готовые решения</a>
+                </div>
+                <div class="animate">
+                    <div class="animate__images">
+                        <img class="animate__home" src="assets/images/animate/home.png" alt="Дом">
+                        <img class="animate__window-blue" src="assets/images/animate/window-blue.png" alt="Окна">
+                        <img class="animate__window" src="assets/images/animate/window.png" alt="Окна">
+                        <img class="animate__gate" src="assets/images/animate/gate.png" alt="Ворота">
+                        <img class="animate__fence" src="assets/images/animate/fence.png" alt="Забор">
+                        <img class="animate__car" src="assets/images/animate/car.png" alt="Авто">
+                    </div>
+                </div>
+            </div><!-- ./intro__inner -->
+        </div><!-- /.container -->
+    </div><!-- ./intro -->
+    
+    <!-- Video -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__text">
+                    <h2>Что умеет умный дом?</h2>
+                </div>
+            </div>
+    
+            <div class="video">
+                <div class="video__inner">
+                    <div class="video__item" data-modal="video-modal">
+                        <img class="video__preview" src="assets/images/preview.jpg" alt="Картинка предпросмотра видео">
+                        <div class="video__subtitle">Умеет удивить ваших гостей</div>
+                    </div>
+                    <div class="video__item" data-modal="video-modal">
+                        <img class="video__preview" src="assets/images/preview.jpg" alt="Картинка предпросмотра видео">
+                        <div class="video__subtitle">Умеет удивить ваших гостей</div>
+                    </div>
+                    <div class="video__item" data-modal="video-modal">
+                        <img class="video__preview" src="assets/images/preview.jpg" alt="Картинка предпросмотра видео">
+                        <div class="video__subtitle">Умеет удивить ваших гостей</div>
+                    </div>
+                </div>
+            </div>
+    
+        </div><!-- /.container -->
+    </section>
+    
+    <!-- Сapabilities -->
+    <section class="section section--padding">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__text">
+                    <h2>Возможности</h2>
+                    <h3>Просто управляйте через смартфон</h3>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    
+        <div class="capabilities">
+            <div class="container container--capabilities">
+                <div class="capabilities__inner">
+                    <div class="capabilities__images">
+                        <img src="assets/images/phone.png" alt="Смартфон">
+                    </div>
+    
+                    <div class="capabilities__content">
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">1</div>
+                            <div class="capabilities__title">Управление освещением </div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">2</div>
+                            <div class="capabilities__title">Управление освещением</div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">3</div>
+                            <div class="capabilities__title">Управление освещением</div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">4</div>
+                            <div class="capabilities__title">Управление освещением</div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">5</div>
+                            <div class="capabilities__title">Управление освещением</div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                        <div class="capabilities__item">
+                            <div class="capabilities__number">6</div>
+                            <div class="capabilities__title">Управление освещением</div>
+                            <div class="capabilities__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                        </div>
+                    </div>
+                </div>
+             </div><!-- /.container -->
+        </div>
+    </section>
+    
+    <!-- Device -->
+    <section class="section section--device">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__text">
+                    <h2>Устройства</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt ullamcorper sed aliquet urna massa etiam turpis. Mus in dictum suspendisse sodales gravida porttitor.</p>
+                </div>
+            </div>
+    
+            <div class="device">
+                <div class="device__inner">
+    
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+    
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+                    <div class="device__item">
+                        <div class="device__images">
+                            <img src="assets/images/router.png" alt="Роутер">
+                        </div>
+                        <div class="device__title">AlphaSE Hub3</div>
+                        <div class="device__text"><p>Интернет-шлюз умного дома. Позволяет управлять всеми устройствами через интернет с мобильного устройства или голосом</p></div>
+                        <div class="device__price">12 600 руб.</div>
+                        <a class="device__description" href="#">Технические характеристики</a>
+                    </div>
+    
+                </div><!-- ./video__inner -->
+            </div><!-- ./video -->
+    
+        </div><!-- /.container -->
+    </section>
+    
+    <section class="section section--partner">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__text">
+                    <h2>Партнерство</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+    
+            <div class="partner">
+                <div class="partner__inner">
+                    <form class="form" action="/" method="POST">
+                        <div class="form__group">
+                            <div class="form__title">ФИО</div>
+                            <input type="text">
+                        </div>
+                        <div class="form__group">
+                            <div class="form__title">Телефон</div>
+                            <input type="tel">
+                        </div>
+                        <div class="form__group form__group--last">
+                            <div class="form__title">E-mail</div>
+                            <input type="email">
+                        </div>
+                        <button class="btn btn--form" type="submit">Стать партнером</button>
+                    </form>
+                    <div class="partner__images">
+                        <img src="assets/images/partner.png" alt="Партнерство">
+                    </div>
+                </div>
+            </div>
+    
+        </div><!-- /.container -->
+    </section>
+    
+    <!-- Build -->
+    <section class="section section--build">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__header">
+                    <div class="section__text section__text--build">
+                        <h2>Застройщикам</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt ullamcorper sed aliquet urna massa etiam turpis. Mus in dictum suspendisse sodales gravida porttitor.</p>
+                    </div>
+                </div>
+    
+                <div class="build">
+                    <img class="build__line" src="assets/images/line.png" alt="">
+                    <div class="build__inner">
+                        <div class="build__item">
+                            <div class="build__img">
+                                <svg class="build__icon">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                            </div>
+                            <div class="build__text">
+                                приобретите себе конкурентное преимущество
+                            </div>
+                        </div>
+                        <div class="build__item">
+                            <div class="build__img">
+                                <svg class="build__icon">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                            </div>
+                            <div class="build__text">
+                                внедрите умный дом в квартиры на этапе застройки или подарите установку умного дома при продаже квартиры
+    
+                            </div>
+                        </div>
+                        <div class="build__item">
+                            <div class="build__img">
+                                <svg class="build__icon">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                            </div>
+                            <div class="build__text">
+                                результат какой-то
+                            </div>
+                        </div>
+                    </div><!-- ./build__inner -->
+                </div><!-- ./build -->
+    
+            </div><!-- ./section__inner -->
+        </div><!-- ./container -->
+    </section>
+    
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+    
+                <div class="footer__component">
+                    <a class="logo" href="#">
+                        <img src="assets/images/logo.png" alt="Логотип">
+                    </a>
+                    <div class="social">
+                        <a href="#">
+                            <svg class="social__icon social__icon--vk">
+                                <use xlink:href="#vk"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="social__icon">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="social__icon">
+                                <use xlink:href="#odk"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+    
+                <nav class="nav nav--footer">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Возможности</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Устройства</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Сотрудничество</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Застройщикам</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <div class="footer__contact">
+                    <div class="telefon">
+                        <a class="telefon__number" href="tel:+79563253654">+79563253654</a>
+                        <a class="telefon__text" href="#">Обратный звонок</a>
+                    </div>
+                    <div class="footer__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.adipiscing elit.</p>
+                    </div>
+                </div>
+    
+            </div><!-- ./footer__inner -->
+        </div><!-- ./container -->
+    </footer>
+
+    <div class="modal" id="video-modal">
+    	<div class="modal__content">
+            <button class="modal__close" type="button">
+    			<img src="assets/images/close.svg" alt="Close">
+    		</button>
+    		<iframe width="560" height="315" src="https://www.youtube.com/embed/A-0qKOjkOZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
